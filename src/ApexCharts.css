@@ -1,0 +1,50 @@
+.main-chart {
+  height: 358px;
+  width: 549px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+  border-radius: 5px;
+}
+
+.overview-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 14px 14px 0px 14px;
+}
+
+.month-view {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 8px 12px 0px 12px;
+  transform: rotateX(180deg);
+}
+
+.month {
+  height: 261px;
+  width: 100%;
+  border: solid;
+  background-color: #5a32ea;
+  border-radius: 14px;
+}
+
+.month-name {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.select {
+  width: 110px;
+  border-radius: 13px;
+  background-color: #f2efff;
+  border: none;
+  height: 30px;
+  padding-left: 8px;
+  color: #897f7f;
+}
